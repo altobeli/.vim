@@ -1,0 +1,626 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html class="   ">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    
+    <title>janus/janus/vim at master · carlhuda/janus · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <meta property="fb:app_id" content="1401488693436528"/>
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="carlhuda/janus" name="twitter:title" /><meta content="janus - Vim distribution" name="twitter:description" /><meta content="https://avatars3.githubusercontent.com/u/76794?s=400" name="twitter:image:src" />
+<meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars3.githubusercontent.com/u/76794?s=400" property="og:image" /><meta content="carlhuda/janus" property="og:title" /><meta content="https://github.com/carlhuda/janus" property="og:url" /><meta content="janus - Vim distribution" property="og:description" />
+
+    <link rel="assets" href="https://github.global.ssl.fastly.net/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035/">
+    <link rel="xhr-socket" href="/_sockets" />
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="selected-link" value="repo_source" data-pjax-transient />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="BBD2941A:6B86:11A0AFB:536687C9" name="octolytics-dimension-request_id" />
+    
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="https://github.global.ssl.fastly.net/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="HFS9KU+k7Lq6685luXDV3tFoMKhKZf3cMA+syhjkrfU+SDRPHDuAdX4EI1JYHHeqkL9AnKRFF4dO5gyOcPk7bA==" name="csrf-token" />
+
+    <link href="https://github.global.ssl.fastly.net/assets/github-825241e13de547a733c8a9cc535c8f6b411b52c1.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://github.global.ssl.fastly.net/assets/github2-0c03a1f6ffa15e379ec26513a90980fce28e78d9.css" media="all" rel="stylesheet" type="text/css" />
+    
+
+
+        <script crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/frameworks-2f6219cf5b1c2bab818848f5705fab73e1f57022.js" type="text/javascript"></script>
+        <script async="async" crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/github-ffd625cd257eca73d06fae2e942802116ee6f8d9.js" type="text/javascript"></script>
+        
+        
+      <meta http-equiv="x-pjax-version" content="b4f9713470ec9d7f373e9d62bb53ec04">
+
+      
+  <meta name="description" content="janus - Vim distribution" />
+
+  <meta content="76794" name="octolytics-dimension-user_id" /><meta content="carlhuda" name="octolytics-dimension-user_login" /><meta content="825237" name="octolytics-dimension-repository_id" /><meta content="carlhuda/janus" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="825237" name="octolytics-dimension-repository_network_root_id" /><meta content="carlhuda/janus" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/carlhuda/janus/commits/master.atom" rel="alternate" title="Recent Commits to janus:master" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_out  env-production  vis-public">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      
+      <div class="header header-logged-out">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions">
+        <a class="button primary" href="/join">Sign up</a>
+      <a class="button signin" href="/login?return_to=%2Fcarlhuda%2Fjanus%2Ftree%2Fmaster%2Fjanus%2Fvim">Sign in</a>
+    </div>
+
+    <div class="command-bar js-command-bar  in-repository">
+
+      <ul class="top-nav">
+          <li class="explore"><a href="/explore">Explore</a></li>
+        <li class="features"><a href="/features">Features</a></li>
+          <li class="enterprise"><a href="https://enterprise.github.com/">Enterprise</a></li>
+          <li class="blog"><a href="/blog">Blog</a></li>
+      </ul>
+        <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+
+<div class="commandbar">
+  <span class="message"></span>
+  <input type="text" data-hotkey="s, /" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off"
+    
+    
+      data-repo="carlhuda/janus"
+      data-branch="master"
+      data-sha="87bc62c73c5f699a43e9b291b07027b577ab6027"
+  >
+  <div class="display hidden"></div>
+</div>
+
+    <input type="hidden" name="nwo" value="carlhuda/janus" />
+
+    <div class="select-menu js-menu-container js-select-menu search-context-select-menu">
+      <span class="minibutton select-menu-button js-menu-target" role="button" aria-haspopup="true">
+        <span class="js-select-button">This repository</span>
+      </span>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container" aria-hidden="true">
+        <div class="select-menu-modal">
+
+          <div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked" />
+            <div class="select-menu-item-text js-select-button-text">This repository</div>
+          </div> <!-- /.select-menu-item -->
+
+          <div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" name="search_target" value="global" />
+            <div class="select-menu-item-text js-select-button-text">All repositories</div>
+          </div> <!-- /.select-menu-item -->
+
+        </div>
+      </div>
+    </div>
+
+  <span class="help tooltipped tooltipped-s" aria-label="Show command bar help">
+    <span class="octicon octicon-question"></span>
+  </span>
+
+
+  <input type="hidden" name="ref" value="cmdform">
+
+</form>
+    </div>
+
+  </div>
+</div>
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+      
+    </div>
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+
+<ul class="pagehead-actions">
+
+
+  <li>
+    <a href="/login?return_to=%2Fcarlhuda%2Fjanus"
+    class="minibutton with-count star-button tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>Star
+  </a>
+
+    <a class="social-count js-social-count" href="/carlhuda/janus/stargazers">
+      5,272
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Fcarlhuda%2Fjanus"
+        class="minibutton with-count js-toggler-target fork-button tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-git-branch"></span>Fork
+      </a>
+      <a href="/carlhuda/janus/network" class="social-count">
+        691
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="repo-label"><span>public</span></span>
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author"><a href="/carlhuda" class="url fn" itemprop="url" rel="author"><span itemprop="title">carlhuda</span></a></span><!--
+       --><span class="path-divider">/</span><!--
+       --><strong><a href="/carlhuda/janus" class="js-current-repository js-repo-home-link">janus</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="Octocat-spinner-32" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline js-new-discussion-timeline  ">
+        <div class="repository-sidebar clearfix">
+            
+
+<div class="sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders">
+  <div class="sunken-menu-contents">
+    <ul class="sunken-menu-group">
+      <li class="tooltipped tooltipped-w" aria-label="Code">
+        <a href="/carlhuda/janus" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /carlhuda/janus">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+        <li class="tooltipped tooltipped-w" aria-label="Issues">
+          <a href="/carlhuda/janus/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-hotkey="g i" data-selected-links="repo_issues /carlhuda/janus/issues">
+            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+            <span class='counter'>63</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Pull Requests">
+        <a href="/carlhuda/janus/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-hotkey="g p" data-selected-links="repo_pulls /carlhuda/janus/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class='counter'>2</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+        <li class="tooltipped tooltipped-w" aria-label="Wiki">
+          <a href="/carlhuda/janus/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g w" data-pjax="true" data-selected-links="repo_wiki /carlhuda/janus/wiki">
+            <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+    </ul>
+    <div class="sunken-menu-separator"></div>
+    <ul class="sunken-menu-group">
+
+      <li class="tooltipped tooltipped-w" aria-label="Pulse">
+        <a href="/carlhuda/janus/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="pulse /carlhuda/janus/pulse">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Graphs">
+        <a href="/carlhuda/janus/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_graphs repo_contributors /carlhuda/janus/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Network">
+        <a href="/carlhuda/janus/network" aria-label="Network" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-selected-links="repo_network /carlhuda/janus/network">
+          <span class="octicon octicon-git-branch"></span> <span class="full-word">Network</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+              <div class="only-with-full-nav">
+                
+
+  
+
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><strong>HTTPS</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/carlhuda/janus.git" readonly="readonly">
+    <span class="url-box-clippy">
+    <button aria-label="copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="https://github.com/carlhuda/janus.git" data-copied-hint="copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><strong>Subversion</strong> checkout URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/carlhuda/janus" readonly="readonly">
+    <span class="url-box-clippy">
+    <button aria-label="copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="https://github.com/carlhuda/janus" data-copied-hint="copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>
+      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <span class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <a href="https://help.github.com/articles/which-remote-url-should-i-use">
+    <span class="octicon octicon-question"></span>
+    </a>
+  </span>
+</p>
+
+
+
+                <a href="/carlhuda/janus/archive/master.zip"
+                   class="minibutton sidebar-button"
+                   aria-label="Download carlhuda/janus as a zip file"
+                   title="Download carlhuda/janus as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+<div class="file-navigation">
+  
+
+<div class="select-menu js-menu-container js-select-menu" >
+  <span class="minibutton select-menu-button js-menu-target" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-remove-close js-menu-close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/carlhuda/janus/tree/cleanup_ruby_code/janus/vim"
+                 data-name="cleanup_ruby_code"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="cleanup_ruby_code">cleanup_ruby_code</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/carlhuda/janus/tree/master/janus/vim"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/carlhuda/janus/tree/0.9.0/janus/vim"
+                 data-name="0.9.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.9.0">0.9.0</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+  <p class="history-link">
+    <a href="/carlhuda/janus/commits/master/janus/vim">
+      <span class="tooltipped tooltipped-s" aria-label="Browse commits for this branch"><span class="octicon octicon-history"></span></span>
+      History
+</a>  </p>
+
+  <div class="breadcrumb"><span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/carlhuda/janus" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">janus</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/carlhuda/janus/tree/master/janus" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">janus</span></a></span><span class="separator"> / </span><strong class="final-path">vim</strong><span class="separator"> / </span><form action="/login?return_to=%2Fcarlhuda%2Fjanus%2Ftree%2Fmaster%2Fjanus%2Fvim" aria-label="Sign in to make or propose changes" class="js-new-blob-form tooltipped tooltipped-e new-file-link" method="post"><span aria-label="Sign in to make or propose changes" class="js-new-blob-submit octicon octicon-file-add" data-test-id="create-new-git-file" role="button"></span></form></div>
+
+</div>
+
+
+
+<a href="/carlhuda/janus/find/master"
+  data-hotkey="t" class="js-show-file-finder" style="display:none" data-pjax>Show File Finder</a>
+
+
+  
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/carlhuda/janus/commit/cc9eea86cf039986b05e69698ecfe02098e6fe4d" class="message" data-pjax="true" title="Replace handlebars &amp; manually pulled mustache with mustache-handlebars
+
+see: https://github.com/nono/vim-handlebars
+     https://github.com/defunkt/mustache/commit/8b9b6fa16988c17b5af4e8e159d39ca489698cd1
+
+closes #575">Replace handlebars &amp; manually pulled mustache with mustache-handlebars</a>
+        <span class="hidden-text-expander inline"><a href="#" class="js-details-target">…</a></span>
+    </p>
+      <div class="commit-desc"><pre>see: <a href="https://github.com/nono/vim-handlebars">https://github.com/nono/vim-handlebars</a>
+     <a href="https://github.com/defunkt/mustache/commit/8b9b6fa16988c17b5af4e8e159d39ca489698cd1" class="commit-link">defunkt/mustache@<tt>8b9b6fa</tt></a>
+
+closes <a href="https://github.com/carlhuda/janus/issues/575" class="issue-link" title="mustache.vim moved to its own repository">#575</a></pre></div>
+    <div class="commit-meta">
+      <button aria-label="Copy SHA" class="js-zeroclipboard zeroclipboard-link" data-clipboard-text="cc9eea86cf039986b05e69698ecfe02098e6fe4d" data-copied-hint="copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+      <a href="/carlhuda/janus/commit/cc9eea86cf039986b05e69698ecfe02098e6fe4d" class="sha-block" data-pjax>latest commit <span class="sha">cc9eea86cf</span></a>
+
+      <div class="authorship">
+        <img alt="Wael M. Nasreddine" class="gravatar js-avatar" data-user="87115" height="20" src="https://avatars3.githubusercontent.com/u/87115?s=140" width="20" />
+        <span class="author-name"><a href="/eMxyzptlk" data-skip-pjax="true" rel="contributor">eMxyzptlk</a></span>
+        authored <local-time class="updated" datetime="2014-04-17T15:25:42-07:00" from="now" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-17 15:25:42 -0700">April 17, 2014</local-time>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="file-wrap">
+    <table class="files" data-pjax>
+        <tr class="up-tree">
+          <td></td>
+          <td><a href="/carlhuda/janus/tree/master/janus" rel="nofollow" title="Go to parent directory">..</a></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+      
+<tbody class=""
+  data-url="/carlhuda/janus/file-list/master/janus/vim">
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/carlhuda/janus/tree/master/janus/vim/colors" class="js-directory-link" id="62848e3ce5804aa985513a7922ff87b2-23da42b6a723b19692ffd71f4181340af586ba73" title="colors">colors</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/carlhuda/janus/commit/c0f594a1f4b6307be6b6c25382b26078c64646d9" class="message" data-pjax="true" title="Update all plugins">Update all plugins</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><local-time datetime="2014-04-02T11:57:46-07:00" from="now" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-02 11:57:46 -0700">April 02, 2014</local-time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/carlhuda/janus/tree/master/janus/vim/core" class="js-directory-link" id="a74ad8dfacd4f985eb3977517615ce25-246ff7628dc89d2a4d8f383e3e09e9f12ada24dd" title="core">core</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/carlhuda/janus/commit/2e8acabd3f58519edc00296df1061dd8088b00bb" class="message" data-pjax="true" title="Allow the user to turn off markdown autostyle. refs #527">Allow the user to turn off markdown autostyle. refs</a> <a href="https://github.com/carlhuda/janus/issues/527" class="issue-link" title="Markdown textwidth">#527</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><local-time datetime="2014-04-02T12:13:10-07:00" from="now" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-02 12:13:10 -0700">April 02, 2014</local-time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/carlhuda/janus/tree/master/janus/vim/langs" class="js-directory-link" id="5a05866850c28651fe234659f6c92ada-f6356dae3a8473540e6b3fe96153713212e7da2f" title="langs">langs</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/carlhuda/janus/commit/cc9eea86cf039986b05e69698ecfe02098e6fe4d" class="message" data-pjax="true" title="Replace handlebars &amp; manually pulled mustache with mustache-handlebars
+
+see: https://github.com/nono/vim-handlebars
+     https://github.com/defunkt/mustache/commit/8b9b6fa16988c17b5af4e8e159d39ca489698cd1
+
+closes #575">Replace handlebars &amp; manually pulled mustache with mustache-handlebars</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><local-time datetime="2014-04-17T15:27:30-07:00" from="now" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-17 15:27:30 -0700">April 17, 2014</local-time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/carlhuda/janus/tree/master/janus/vim/tools" class="js-directory-link" id="4a931512ce65bdc9ca6808adf92d8783-8bcfcfcd6ca6fe32a88d20b09367381551d57000" title="tools">tools</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/carlhuda/janus/commit/bedf4c066b921533c734705b229d8f3dc8456805" class="message" data-pjax="true" title="Updated supertab submodule to fix file completion
+
+File completion (:help i_CTRL-X_CTRL-F) is partly broken due to supertab
+but fixed upstream in supertab&#39;s latest version.">Updated supertab submodule to fix file completion</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><local-time datetime="2014-04-10T09:13:15+02:00" from="now" title-format="%Y-%m-%d %H:%M:%S %z" title="2014-04-10 09:13:15 +0200">April 10, 2014</local-time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/carlhuda/janus/blob/master/janus/vim/gvimrc" class="js-directory-link" id="15fbd7e8556d7526da41ded0f4a0c314-1ec7baa6178c777b391a808b01b528f84378d5df" title="gvimrc">gvimrc</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/carlhuda/janus/commit/2eb22cd5fded4324b05ad083dc5ced4460bd5b56" class="message" data-pjax="true" title="Command-Shift-t to open a new tab
+
+closes #350">Command-Shift-t to open a new tab</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><local-time datetime="2012-01-10T21:43:06+01:00" from="now" title-format="%Y-%m-%d %H:%M:%S %z" title="2012-01-10 21:43:06 +0100">January 10, 2012</local-time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/carlhuda/janus/blob/master/janus/vim/vimrc" class="js-directory-link" id="076d61938d25fd036d6436c94d8778fa-e06f7ca92bace59774ec9c3b3a41cd91362a2c60" title="vimrc">vimrc</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/carlhuda/janus/commit/e17e410e115e003291125190034230bd8e85af20" class="message" data-pjax="true" title="source plugins.vim before loading pathogen
+moved plugins.vim to core folder to prevent it from loading twice
+thanks @apetresc closes #383">source plugins.vim before loading pathogen</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><local-time datetime="2012-01-26T18:58:30-05:00" from="now" title-format="%Y-%m-%d %H:%M:%S %z" title="2012-01-26 18:58:30 -0500">January 26, 2012</local-time></span></td>
+    </tr>
+</tbody>
+
+    </table>
+  </div>
+
+
+  
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2014 <span title="0.03259s from github-fe117-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-remove-close close js-ajax-error-dismiss"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+  </body>
+</html>
+

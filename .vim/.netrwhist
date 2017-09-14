@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/lramirez/svn/unix/puppet/trunk/conf/environments/production/modules/sphinx/files'
+let g:netrw_dirhist_2='/home/lramirez/svn/unix/puppet/trunk/conf/environments/production/modules/sphinx/files/hosts'
+let g:netrw_dirhist_3='/home/lramirez/svn/unix/nagios/nagios1/etc/generic'
+let g:netrw_dirhist_4='/home/lramirez/svn/unix/puppet/trunk/conf/environments/production/modules/svnserver/manifests'
+let g:netrw_dirhist_5='/home/lramirez/svn/unix/named/external/lexis-nexis'
